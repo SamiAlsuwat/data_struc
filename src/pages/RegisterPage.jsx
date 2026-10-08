@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 
 const RegisterPage = ({ onRegister, onNavigate }) => {
-  const [form, setForm] = useState({ studentName: '', studentNumber: '', sectionNumber: '41', password: '', confirmPassword: '' });
+  const [form, setForm] = useState({ studentName: '', studentNumber: '', sectionNumber: '339', password: '', confirmPassword: '' });
   const [error, setError] = useState('');
   const [success, setSuccess] = useState('');
   const [loading, setLoading] = useState(false);
@@ -74,8 +74,7 @@ const RegisterPage = ({ onRegister, onNavigate }) => {
           <div>
             <label className="block text-slate-300 text-sm mb-2">Section | الشعبة</label>
             <select value={form.sectionNumber} onChange={(e) => setForm({...form, sectionNumber: e.target.value})} className="w-full px-4 py-3 bg-slate-700/50 border border-slate-600 rounded-lg text-white focus:outline-none focus:border-emerald-500" disabled={loading}>
-              <option value="41">41</option>
-              <option value="338">338</option>
+              <option value="339">339</option>
             </select>
           </div>
 
