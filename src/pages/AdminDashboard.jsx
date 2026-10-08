@@ -91,7 +91,7 @@ const AdminDashboard = ({ onLogout }) => {
               </div>
               <div>
                 <h1 className="text-white font-bold">Admin Dashboard</h1>
-                <p className="text-emerald-300/70 text-xs">Computer Programming Course</p>
+                <p className="text-emerald-300/70 text-xs">Data Structures Course</p>
               </div>
             </div>
             <button onClick={onLogout} className="px-4 py-2 bg-red-600/20 hover:bg-red-600/30 text-red-400 rounded-lg text-sm">Logout</button>

@@ -40,8 +40,8 @@ const HomePage = ({ user, onNavigate, onLogout }) => {
                 <span className="text-white font-black">DS</span>
               </div>
               <div>
-                <h1 className="text-white font-bold">Computer Programming</h1>
-                <p className="text-emerald-300/70 text-xs font-arabic">برمجة الحاسب</p>
+                <h1 className="text-white font-bold">Data Structures</h1>
+                <p className="text-emerald-300/70 text-xs font-arabic">هياكل البيانات</p>
               </div>
             </div>
             <div className="flex items-center gap-4">
@@ -126,7 +126,7 @@ const HomePage = ({ user, onNavigate, onLogout }) => {
       </div>
 
       <footer className="py-6 text-center border-t border-slate-800 mt-8">
-        <p className="text-slate-500 text-sm">Computer Programming | Taif University | جامعة الطائف</p>
+        <p className="text-slate-500 text-sm">Data Structures | Taif University | جامعة الطائف</p>
         <p className="text-slate-600 text-xs mt-2">College of Computers & Information Technology</p>
       </footer>
     </div>
